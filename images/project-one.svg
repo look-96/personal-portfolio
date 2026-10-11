@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Project One placeholder</title>
+  <desc id="desc">A simple mock website preview to replace with a screenshot of Project One.</desc>
+  <rect width="1200" height="675" fill="#e4efe7"/>
+  <rect x="100" y="75" width="1000" height="525" rx="28" fill="#fff" stroke="#b9d2c0" stroke-width="8"/>
+  <path d="M100 155h1000" stroke="#b9d2c0" stroke-width="8"/>
+  <circle cx="150" cy="115" r="13" fill="#004225"/><circle cx="195" cy="115" r="13" fill="#77a58b"/><circle cx="240" cy="115" r="13" fill="#bfd6c6"/>
+  <rect x="165" y="210" width="420" height="42" rx="12" fill="#004225"/>
+  <rect x="165" y="280" width="590" height="18" rx="9" fill="#9caf9f"/>
+  <rect x="165" y="318" width="510" height="18" rx="9" fill="#c4d0c6"/>
+  <rect x="165" y="390" width="260" height="125" rx="18" fill="#d9e8dd"/>
+  <rect x="455" y="390" width="260" height="125" rx="18" fill="#e9f0ea"/>
+  <rect x="745" y="390" width="260" height="125" rx="18" fill="#c7ddcf"/>
+  <text x="600" y="565" text-anchor="middle" fill="#002d1b" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="700">Replace with your project screenshot</text>
+</svg>

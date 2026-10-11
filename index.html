@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of [Your Name], a [your role or area of study] showcasing selected projects, skills, and contact information.">
+  <title>[Your Name] | Developer Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <p class="site-name">[Your Name]</p>
+    <nav class="site-nav" aria-label="Main navigation">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+        <span class="menu-icon" aria-hidden="true">☰</span>
+        <span>Menu</span>
+      </button>
+      <ul id="primary-navigation">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section id="about" aria-labelledby="about-heading">
+      <h1 id="about-heading">Hello, I’m [Your Name]</h1>
+      <p class="intro">I’m a [developer, student, or role] interested in [your focus]. I enjoy building useful, accessible experiences for the web.</p>
+      <p>Use this section to introduce yourself, describe what you’re learning or working on, and share what kind of opportunities you’re looking for.</p>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Selected Projects</h2>
+
+      <div class="project-filters" role="group" aria-label="Filter projects by category">
+        <button type="button" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" data-filter="web" aria-pressed="false">Web</button>
+        <button type="button" data-filter="api" aria-pressed="false">API</button>
+      </div>
+
+      <article class="project-card" data-category="web">
+        <figure>
+          <!-- Replace this path and alt text when you add a project screenshot. -->
+          <button class="lightbox-trigger" type="button" aria-label="Enlarge screenshot of [Project One]">
+          <img src="images/project-one.svg" alt="Placeholder graphic for [Project One]; replace this with a project screenshot.">
+          </button>
+          <figcaption>[Project One] interface</figcaption>
+        </figure>
+        <div class="project-copy">
+          <h3>[Project One]</h3>
+          <p>[Describe the project, the problem it solves, and your contribution.]</p>
+          <p><strong>Technologies:</strong> [HTML, CSS, JavaScript]</p>
+          <a href="https://github.com/your-username/project-one">View project</a>
+        </div>
+      </article>
+
+      <article class="project-card" data-category="api">
+        <figure>
+          <!-- Replace this path and alt text when you add a project screenshot. -->
+          <button class="lightbox-trigger" type="button" aria-label="Enlarge screenshot of [Project Two]">
+          <img src="images/project-two.svg" alt="Placeholder graphic for [Project Two]; replace this with a project screenshot.">
+          </button>
+          <figcaption>[Project Two] interface</figcaption>
+        </figure>
+        <div class="project-copy">
+          <h3>[Project Two]</h3>
+          <p>[Describe the project, the problem it solves, and your contribution.]</p>
+          <p><strong>Technologies:</strong> [List the main tools or languages]</p>
+          <a href="https://github.com/your-username/project-two">View project</a>
+        </div>
+      </article>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>[Add another skill you can demonstrate]</li>
+      </ul>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Get in Touch</h2>
+      <p>Have a question or want to discuss a project? Send me a message.</p>
+
+      <!-- Connect this form to a server or form-handling service to receive submissions. -->
+      <form id="contact-form" action="#" method="post" novalidate>
+        <p>
+          <label for="name">Your name</label>
+          <input type="text" id="name" name="name" autocomplete="name" aria-describedby="name-error" required>
+          <span class="form-error" id="name-error"></span>
+        </p>
+        <p>
+          <label for="email">Your email</label>
+          <input type="email" id="email" name="email" autocomplete="email" aria-describedby="email-error" required>
+          <span class="form-error" id="email-error"></span>
+        </p>
+        <p>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" aria-describedby="message-error" required></textarea>
+          <span class="form-error" id="message-error"></span>
+        </p>
+        <button type="submit">Send message</button>
+        <p id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <dialog class="lightbox" id="project-lightbox" aria-labelledby="lightbox-caption">
+      <div class="lightbox-content">
+        <button class="lightbox-close" type="button" aria-label="Close enlarged image">Close</button>
+        <img id="lightbox-image" src="" alt="">
+        <p id="lightbox-caption"></p>
+      </div>
+    </dialog>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span>[Year]</span> [Your Name]</p>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>

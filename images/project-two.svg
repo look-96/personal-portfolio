@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Project Two placeholder</title>
+  <desc id="desc">A mock API dashboard preview to replace with a screenshot of Project Two.</desc>
+  <rect width="1200" height="675" fill="#e4efe7"/>
+  <rect x="100" y="75" width="1000" height="525" rx="28" fill="#fff" stroke="#b9d2c0" stroke-width="8"/>
+  <rect x="100" y="75" width="245" height="525" rx="28" fill="#002d1b"/>
+  <rect x="150" y="140" width="145" height="20" rx="10" fill="#d6e8dc"/>
+  <rect x="150" y="205" width="125" height="14" rx="7" fill="#89ad96"/>
+  <rect x="150" y="250" width="145" height="14" rx="7" fill="#89ad96"/>
+  <rect x="150" y="295" width="110" height="14" rx="7" fill="#89ad96"/>
+  <text x="395" y="145" fill="#002d1b" font-family="Segoe UI,Arial,sans-serif" font-size="32" font-weight="700">Project dashboard</text>
+  <rect x="395" y="185" width="640" height="110" rx="18" fill="#e4efe7"/>
+  <rect x="435" y="220" width="250" height="16" rx="8" fill="#004225"/>
+  <rect x="435" y="252" width="510" height="12" rx="6" fill="#a9c1af"/>
+  <rect x="395" y="325" width="300" height="170" rx="18" fill="#edf3ee"/>
+  <rect x="735" y="325" width="300" height="170" rx="18" fill="#d6e8dc"/>
+  <text x="545" y="405" text-anchor="middle" fill="#004225" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="700">API response</text>
+  <text x="885" y="405" text-anchor="middle" fill="#004225" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="700">Data model</text>
+  <text x="715" y="555" text-anchor="middle" fill="#002d1b" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700">Replace with your project screenshot</text>
+</svg>
